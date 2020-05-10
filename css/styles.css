@@ -34,7 +34,7 @@ header {
   
 #navbar ul {
   position: absolute;
-  right: 20px;
+  right: 0px;
 }
   
 #navbar ul li {
@@ -203,15 +203,23 @@ footer {
 }
 
 @media only screen and (max-width: 430px) {
+    
   #navbar ul {
-    position: absolute;
-    right: 20px;
+    position: relative;
+    margin: 0 auto;
+    width: 330px;
+    display: flex;
+    justify-content: space-around;
   }
 
   li a {
-    width: 85px;
+    color: var(--bege);
+    text-decoration: none;
+    display: block;
+    height: 70px;
+    width: auto;
   }
-    
+
   #contact ul li {
     display: block;
     margin: 0px 7px 0;
