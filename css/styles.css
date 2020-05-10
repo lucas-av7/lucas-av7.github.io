@@ -227,6 +227,10 @@ footer {
     width: auto;
   }
 
+  li a:active {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* remove a caixa de destaque quando o link é clicado no mobile */
+  }
+
   #contact ul li {
     display: block;
     margin: 0px 7px 0;
