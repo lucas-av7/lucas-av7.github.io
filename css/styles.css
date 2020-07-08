@@ -1,11 +1,11 @@
 :root {
-    --blue: #003049;
-    --red: #D62828;
-    --orange: #F77F00;
-    --yellow: #FCBF49;
-    --bege: #EAE2B7;
+  --blue: #003049;
+  --red: #D62828;
+  --orange: #F77F00;
+  --yellow: #FCBF49;
+  --bege: #EAE2B7;
 }
-  
+
 * {
   margin: 0;
   padding: 0;
@@ -14,16 +14,16 @@
 html {
   scroll-behavior: smooth;
 }
-  
+
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
 }
-  
+
 .section h1, .section p,  .section2 h1, .section2 p {
   text-align: center;
 }
-  
+
 header {
   width: 100%;
   height: 70px;
@@ -31,23 +31,23 @@ header {
   background-color: var(--blue);
   border-bottom: 3px var(--red) solid;
 }
-  
+
 #navbar ul {
   position: absolute;
   right: 0px;
 }
-  
+
 #navbar ul li {
   display: inline-block;
   text-align: center;
   line-height: 70px;
 }
-  
+
 li {
   list-style: none;
   font-size: 1.43em;
 }
-  
+
 li a {
   color: var(--bege);
   text-decoration: none;
@@ -55,11 +55,11 @@ li a {
   height: 70px;
   width: 110px;
 }
-  
+
 #navbar li a:hover {
-  text-decoration: overline var(--red);
+text-decoration: overline var(--red);
 }
-  
+
 .section {
   display: flex;
   width: 100%;
@@ -75,7 +75,7 @@ li a {
   max-width: 300px;
   border-radius: 50%;
 }
-  
+
 .section2 {
   display: flex;
   width: 100%;
@@ -85,12 +85,12 @@ li a {
   justify-content: center;
   flex-direction: column;
 }
-  
+
 .section h1 {
   color: var(--bege);
   font-size: 3.7em;
 }
-  
+
 .section2 h1 {
   color: var(--blue);
   font-size: 2.5em;
@@ -99,13 +99,13 @@ li a {
   margin-top: 85px;
   margin-bottom: 40px;
 }
-  
+
 .section p {
   color: var(--red);
   font-style: italic;
   font-size: 1.9em; 
 }
-  
+
 #allProjects {
   width: 100%;
   display: flex;
@@ -113,7 +113,7 @@ li a {
   flex-wrap: wrap;
   justify-content: center;
 }
-  
+
 .project {
   min-width: 300px;
   max-width: 28%;
@@ -121,7 +121,7 @@ li a {
   background-color: var(--blue);
   margin: 0 10px 20px 10px;
 }
-  
+
 .project h2 {
   text-align: center;
   padding: 10px 0 13px 0;
@@ -148,31 +148,38 @@ li a {
   color: cornflowerblue;
 }
 
-
 .js {
   color: gold;
 }
-  
+
+.react {
+  color: aqua;
+}
+
+.node {
+  color: greenyellow;
+}
+
 .project-link {
   text-decoration: none;
 }
-  
+
 .project-link:hover .codeIcon {
   opacity: 1;
   transition: 0.5s opacity;
 }
-  
+
 .codeIcon {
   color: var(--red);
   opacity: 0;
   transition: 0.5s opacity;
 }
-  
+
 #contact ul li {
   display: inline-block;
   margin: 60px 30px 0;
 }
-  
+
 #contact li a {
   width: 140px;
   text-align: center;
@@ -180,7 +187,7 @@ li a {
   transition: transform 0.5s;
   line-height: 70px;
 }
-  
+
 #contact li a:hover {
   transform: translateY(-5px);
   transition: transform 0.5s;
@@ -199,18 +206,18 @@ footer {
 }
 
 @media only screen and (max-width: 640px) {
-  #contact li a {
-    width: auto;
-  }
-  
-  #contact ul li {
-    display: inline-block;
-    margin: 60px 7px 0;
-  }
+#contact li a {
+  width: auto;
+}
+
+#contact ul li {
+  display: inline-block;
+  margin: 60px 7px 0;
+}
 }
 
 @media only screen and (max-width: 430px) {
-    
+  
   #navbar ul {
     position: relative;
     margin: 0 auto;
@@ -235,7 +242,7 @@ footer {
     display: block;
     margin: 0px 7px 0;
   }
-    
+  
   #contact li a:hover {
     transform: scale(1.1);
     transition: transform 0.5s;
