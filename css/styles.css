@@ -160,6 +160,14 @@ text-decoration: overline var(--red);
   color: greenyellow;
 }
 
+.vue {
+  color: #41b883;
+}
+
+.pwa {
+  color: lightcoral;
+}
+
 .project-link {
   text-decoration: none;
 }
