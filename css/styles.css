@@ -152,6 +152,10 @@ text-decoration: overline var(--red);
   color: gold;
 }
 
+.typescript {
+  color: deepskyblue;
+}
+
 .react {
   color: aqua;
 }
